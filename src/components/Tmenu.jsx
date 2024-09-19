@@ -22,7 +22,7 @@ const Menu = ({ setMenuOpen }) => {
   const Menus = [
     { title: "Dashboard", path: "/teacher/Teacherdashboard" },
 
-    { title: "Marks", icon: <FaClipboardCheck />, path: "" },
+    { title: "Marks", icon: <FaClipboardCheck />, path: "teacher/tmarksentry" },
     { title: "Ledger", icon: <IoIosClipboard />, path: "/teacher/ledgerr" },
     { title: "Student", icon: <FaGraduationCap />, path: "/teacher/student" },
   ];

@@ -1,6 +1,7 @@
+
 "use client";
 import React, { useState } from "react";
-import supabase from "@/utils/client"; 
+import supabase from "@/utils/client";
 import { v4 as uuidv4 } from "uuid";
 
 function CreateNotice({ onClose }) {
@@ -25,7 +26,6 @@ function CreateNotice({ onClose }) {
     try {
       let imageUrl = null;
 
-      
       if (imageFile) {
         const uniqueId = uuidv4();
         const filePath = `Image/${uniqueId}_${imageFile.name}`;
@@ -90,10 +90,7 @@ function CreateNotice({ onClose }) {
 
         <div className="sm:w-1/2 px-6">
           <div className="flex items-center mt-4">
-            <img
-              src="/assets/Addstudentorteacher.png"
-              className="h-12 w-12 mr-2"
-            />
+            <img src="/assets/Addstudentorteacher.png" className="h-12 w-12 mr-2" />
             <h1 className="text-[#253553] underline text-2xl font-bold">
               _C r e a t e _ N o t i c e
             </h1>
