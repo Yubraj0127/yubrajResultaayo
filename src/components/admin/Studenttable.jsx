@@ -209,8 +209,8 @@ export default function Studenttable() {
   const [showAddStudent, setShowAddStudent] = useState(false);
   const [currentStudent, setCurrentStudent] = useState(null); // New state for the student to be edited
 
-  const years = ["2079", "2080", "2081"];
-  const classes = ["8", "9", "10"];
+  const years = [""];
+  const classes = [""];
 
   const handleYearChange = (e) => setSelectedYear(e.target.value);
   const handleClassChange = (e) => setSelectedClass(e.target.value);
